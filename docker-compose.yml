@@ -2,7 +2,7 @@ services:
   web:
     build: .
     working_dir: /data
-    command: python app2.py
+    command: python produto.py
     links:
       - db
     volumes:
